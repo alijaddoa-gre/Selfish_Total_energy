@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<applications>
+	<application name="AUGMENTED_REALITY">
+		<usage_percentage>60</usage_percentage>
+		<prob_cloud_selection>60</prob_cloud_selection>
+		<poisson_interarrival>10</poisson_interarrival>
+		<active_period>45</active_period>
+		<idle_period>20</idle_period>
+		<data_upload>1500</data_upload>
+		<data_download>500</data_download>
+		<task_length>4000</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>100</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>100</vm_utilization_on_cloud>
+		<Delay_sensitivity>0.90</Delay_sensitivity>
+		<Utilization_on_IoT>90</Utilization_on_IoT>
+		<prob_IoT_selection>100</prob_IoT_selection>
+	</application>
+	<application name="HEALTH_APP">
+		<usage_percentage>40</usage_percentage>
+		<prob_cloud_selection>20</prob_cloud_selection>
+		<poisson_interarrival>25</poisson_interarrival>
+		<active_period>10</active_period>
+		<idle_period>20</idle_period>
+		<data_upload>3000</data_upload>
+		<data_download>50</data_download>
+		<task_length>2500</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>100</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>100</vm_utilization_on_cloud>
+		<Delay_sensitivity>0.05</Delay_sensitivity>
+		<Utilization_on_IoT>100</Utilization_on_IoT>
+		<prob_IoT_selection>100</prob_IoT_selection>
+		
+		
+	</application>
+	<application name="HEAVY_COMP_APP">
+		<usage_percentage>30</usage_percentage>
+		<prob_cloud_selection>30</prob_cloud_selection>
+		<poisson_interarrival>30</poisson_interarrival>
+		<active_period>30</active_period>
+		<idle_period>30</idle_period>
+		<data_upload>100</data_upload>
+		<data_download>5</data_download>
+		<task_length>750</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>100</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>100</vm_utilization_on_cloud>
+		<Delay_sensitivity>0.15</Delay_sensitivity>
+		<Utilization_on_IoT>100</Utilization_on_IoT>
+	    <prob_IoT_selection>100</prob_IoT_selection>
+		
+		
+	</application>
+	<application name="INFOTAINMENT_APP">
+		<usage_percentage>10</usage_percentage>
+		<prob_cloud_selection>20</prob_cloud_selection>
+		<poisson_interarrival>10</poisson_interarrival>
+		<active_period>10</active_period>
+		<idle_period>40</idle_period>
+		<data_upload>300</data_upload>
+		<data_download>300</data_download>
+		<task_length>350</task_length>
+		<required_core>1</required_core>
+		<vm_utilization_on_edge>100</vm_utilization_on_edge>
+		<vm_utilization_on_cloud>100</vm_utilization_on_cloud>
+		<Delay_sensitivity>0.5</Delay_sensitivity>
+		<Utilization_on_IoT>100</Utilization_on_IoT>
+		<prob_IoT_selection>100</prob_IoT_selection>
+		
+	</application>
+</applications>
